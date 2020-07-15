@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*
+Theme Name: Zepvnicek
+Author: Petr Kucera
+*/
+body {
+  margin: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Hlavní nadpis, název písně*/
+h1 {
+  color: #0078d7;
+}
+
+/* Hlavní podnaddpis, název interpreta*/
+h2 {
+  color: #2b2b2b;
+}
+
+em {
+  position: relative;
+  top: -12px;
+  color: #0078d7;
+  font-weight: bold;
+  font-style: normal;
+}
+
+header p {
+  line-height: normal;
+}
+
+p {
+  line-height: 200%;
+}
+
+#textSongu {
+  white-space: pre-line;
+}
+
+span {
+  clear: both;
+}
+
+/*header*/
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #0078d7;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul {
+  float: left;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*telo*/
+article header {
+  background-color: white;
+  margin: 30px;
+}
+
+article section {
+  margin: 30px;
+}
+
+section a:link {
+  color: #0078d7;
+}
+
+section a:visited {
+  color: #2b2b2b;
+}
+
+section a:hover {
+  font-weight: bold;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section li {
+  list-style: none;
+}
+
+.poznamka {
+  color: grey;
+  font-style: italic;
+}
+
+/*footer*/
+footer {
+  background-color: #0078d7;
+  margin: 0px;
+  padding: 20px 20px 20px 20px;
+  height: 20px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1:hover, h2:hover {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-name: anime1;
+          animation-name: anime1;
+  cursor: pointer;
+}
+
+@-webkit-keyframes anime1 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(5x, 0);
+    transform: translate(5px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(5px, 0);
+    transform: translate(5px, o);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(5px, 0);
+    transform: translate(5px, o);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
