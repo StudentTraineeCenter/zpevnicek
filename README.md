@@ -1,10 +1,10 @@
 # Zpěvníček
 Jednoduchy zpěvníček s STC písněmi a správnými akordy.
 
-# Jak přidat nový song
+## Jak přidat nový song
 <p>Formátování je v tuto chvíli inspirováno webem supermusic. Tedy akordy se píší do hranatých závorek <code> [A] </code> a poté jsou automaticky přeformátovány.
 
-# Plánované novinky
+## Plánované novinky
 <ul>
     <li>transpozice</li>
     <li>dark mode + normální grafika</li>
@@ -15,5 +15,5 @@ Jednoduchy zpěvníček s STC písněmi a správnými akordy.
     <li>vyhledávání</li>
 </ul>
 
-# Jak pomoci
+## Jak pomoci
 Chceš něco zlepšit - pošli pull request nebo napiš na mail petr.kucera@studentstc.cz a pošlu ti rovnou invite do repozitáře
