@@ -112,7 +112,7 @@ function Moduluj2(akord_name2, modulacia) {
         break;
     }
 
-    elemID = "akord[" + i + "]";
+    elemID = `akord[${i}]`;
 
     var obj;
     if (document.all) {
