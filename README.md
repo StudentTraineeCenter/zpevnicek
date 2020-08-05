@@ -16,4 +16,4 @@ Jednoduchy zpěvníček s STC písněmi a správnými akordy.
 </ul>
 
 ## Jak pomoci
-Chceš něco zlepšit - pošli pull request nebo napiš na mail petr.kucera@studentstc.cz a pošlu ti rovnou invite do repozitáře
+Chceš něco zlepšit - pošli pull request
