@@ -13,7 +13,7 @@ export default function PostBody({ content, note, author }) {
           </div>
         )}
       </div>
-      <div className="text-xl">{content}</div>
+      <div className="text-xl mt-12">{content}</div>
     </div>
   );
 }
