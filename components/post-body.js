@@ -15,7 +15,7 @@ export default function PostBody({ content, note, author }) {
                     </div>
                 )}
             </div>
-            <div className="text-xl mt-12" dangerouslySetInnerHTML={{
+            <div className="text-xl mt-12 song-text" dangerouslySetInnerHTML={{
                 __html: content
             }}></div>
         </div>

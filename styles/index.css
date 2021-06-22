@@ -20,3 +20,13 @@
     color: #fff;
   }
 }
+
+.chord {
+    position: relative; top: -12px;
+    color:#b6ae68;
+    font-weight: bold;
+    font-style: normal;
+}
+.song-text {
+    line-height: 3rem;
+}
