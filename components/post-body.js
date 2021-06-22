@@ -3,7 +3,7 @@ export default function PostBody({ content, note, author }) {
     <div className="max-w-2xl mx-auto">
       <div className="bg-gray-200 text-3xl mb-12">
         {author && (
-          <div>
+          <div className="mb-3">
             <span title="Autor">👤:</span> {author}
           </div>
         )}
