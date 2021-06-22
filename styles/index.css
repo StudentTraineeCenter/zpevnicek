@@ -13,3 +13,10 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #24292e;
+    color: #fff;
+  }
+}
