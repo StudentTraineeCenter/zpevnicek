@@ -1,5 +1,13 @@
 import Layout from "./layout";
 
+function saveData(){
+    let name = document.getElementById('fname').value;
+    let slug = document.getElementById('fslug').value;
+    let author = document.getElementById('fauthor').value;
+    let note = document.getElementById('fnote').value;
+    let text = document.getElementById('ftext').value;
+}
+
 export default function FormLayout() {
     return (
         <div>
