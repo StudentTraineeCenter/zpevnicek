@@ -5,7 +5,7 @@ export default function PostPreview({ name, author, slug }) {
     <div className="">
       <Link as={`/song/${slug}`} href="/song/[slug]">
         <a className="text-3xl hover:underline text-[#0078d7]">
-          Píseň {name} - {author}
+          {name} - {author}
         </a>
       </Link>
     </div>
