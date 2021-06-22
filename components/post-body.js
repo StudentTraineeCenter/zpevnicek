@@ -1,9 +1,18 @@
-export default function PostBody({ content, note }) {
+export default function PostBody({ content, note, author }) {
   return (
     <div className="max-w-2xl mx-auto">
-      {note && (
-        <div className="bg-gray-200 text-2xl mb-12">📝 Poznámka: {note}</div>
-      )}
+      <div className="bg-gray-200 text-3xl mb-12">
+        {author && (
+          <div>
+            <span title="Autor">👤:</span> {author}
+          </div>
+        )}
+        {note && (
+          <div>
+            <span title="Poznámka">📝:</span> {note}
+          </div>
+        )}
+      </div>
       <div className="text-xl">{content}</div>
     </div>
   );
