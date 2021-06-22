@@ -1,5 +1,5 @@
 export default function PostBody({ content, note, author }) {
-    content = content.split("[").join("<em>");
+    content = content.split("[").join('<em class="chord">');
     content = content.split("]").join("</em>");
     return (
         <div className="max-w-2xl mx-auto">
@@ -15,7 +15,9 @@ export default function PostBody({ content, note, author }) {
                     </div>
                 )}
             </div>
-            <div className="text-xl mt-12">{content}</div>
+            <div className="text-xl mt-12" dangerouslySetInnerHTML={{
+                __html: content
+            }}></div>
         </div>
     );
 }
