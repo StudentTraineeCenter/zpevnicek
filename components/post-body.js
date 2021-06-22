@@ -1,12 +1,10 @@
-import markdownStyles from './markdown-styles.module.css'
-
-export default function PostBody({ content }) {
+export default function PostBody({ content, note }) {
   return (
     <div className="max-w-2xl mx-auto">
-      <div
-      >
-        {content}
-        </div>
+      {note && (
+        <div className="bg-gray-200 text-2xl mb-12">📝 Poznámka: {note}</div>
+      )}
+      <div className="text-xl">{content}</div>
     </div>
-  )
+  );
 }

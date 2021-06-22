@@ -34,7 +34,7 @@ export default function Post({ post, preview }) {
                 name={post.name}
                 author={post.author}
               />
-              <PostBody content={post.text} />
+              <PostBody note={post.note} content={post.text} />
             </article>
           </>
         )}
