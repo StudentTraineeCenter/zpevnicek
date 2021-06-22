@@ -29,4 +29,5 @@
 }
 .song-text {
     line-height: 3rem;
+    white-space: pre-line;
 }
