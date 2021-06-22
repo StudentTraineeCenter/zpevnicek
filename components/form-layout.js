@@ -60,7 +60,7 @@ export default function FormLayout() {
                 <input for="grid-first-name" type="text" id="fname" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
             <div>
-                <label>Url adresa písně</label>
+                <label>Url adresa písně (nazev-pisne-jmeno-autora)</label>
                 <input for="grid-first-name" type="text" id="fslug" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
             <div>
