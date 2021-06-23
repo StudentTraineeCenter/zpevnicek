@@ -1,7 +1,8 @@
 import Header from "./header";
 import { useState } from "react";
 import replaceAllInserter from "string.prototype.replaceall";
-import { TextField } from '@fluentui/react/lib/TextField';
+import { TextField } from "@fluentui/react/lib/TextField";
+import Swal from "sweetalert2";
 
 import unidecode from "unidecode";
 
@@ -33,7 +34,12 @@ function saveData(slug) {
     const song = new Song(name, slug, author, note, text);
     downloadObjectAsJson(song, slug);
   } else {
-    alert("Nevyplnil jsi všechny povinné položky!");
+    Swal.fire({
+      title: "Chyba!",
+      text: "Nevyplnil jsi všechny povinné položky!",
+      icon: "error",
+      confirmButtonColor: "#0078D4",
+    });
   }
 }
 
@@ -130,7 +136,7 @@ export default function FormLayout() {
       </div>
       <button
         onClick={() => saveData(generateSlug(songName, artistName))}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-[#0078D4] hover:bg-[#004377] duration-200	text-white font-bold py-2 px-4 rounded"
       >
         Stáhnout JSON
       </button>

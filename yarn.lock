@@ -2743,6 +2743,11 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
+sweetalert2@^11.0.18:
+  version "11.0.18"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.0.18.tgz#9547859cc1a79815d5d02a6e0d1a3d44da3f8dc1"
+  integrity sha512-sF6huRQqqRGz7p9F8XFKSICl5hOiXjjpmnwAO8vlyJKAyMNZb2fvdok11JIGQjqcqVMIag/VLNWF4eEsIKQKGw==
+
 tailwindcss@^2.0.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.2.tgz#28a99c87b5a6b2bf6298a77d88dc0590e84fa8ee"
