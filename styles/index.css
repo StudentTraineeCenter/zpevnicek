@@ -22,12 +22,13 @@
 }
 
 .chord {
-    position: relative; top: -12px;
-    color:#b6ae68;
-    font-weight: bold;
-    font-style: normal;
+  position: relative;
+  top: -12px;
+  color: #b6ae68;
+  font-weight: bold;
+  font-style: normal;
 }
 .song-text {
-    line-height: 3rem;
-    white-space: pre-line;
+  line-height: 3rem;
+  white-space: pre-line;
 }
