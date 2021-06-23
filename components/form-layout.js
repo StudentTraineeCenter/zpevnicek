@@ -1,3 +1,4 @@
+import Header from "./header";
 
 /**
  * Defintiion of the song class.
@@ -16,18 +17,17 @@ class Song {
  * Save data from simply from into the json file.
  */
 function saveData() {
-    let name = document.getElementById('fname').value;
-    let slug = document.getElementById('fslug').value;
-    let author = document.getElementById('fauthor').value;
-    let note = document.getElementById('fnote').value;
-    let text = document.getElementById('ftext').value;
+    const name = document.getElementById('fname').value;
+    const slug = document.getElementById('fslug').value;
+    const author = document.getElementById('fauthor').value;
+    const note = document.getElementById('fnote').value;
+    const text = document.getElementById('ftext').value;
 
-    if (name != "" && slug != "" && author != "" && text != "") {
-        let song = new Song(name, slug, author, note, text);
-        console.log(JSON.stringify(song));
+    if (name !== "" && slug !== "" && author !== "" && text !== "") {
+        const song = new Song(name, slug, author, note, text);
         downloadObjectAsJson(song, slug);
     } else {
-        alert("Nevyplnil jsi veschny povinne polozky!")
+        alert("Nevyplnil jsi všechny povinné položky!")
     }
 }
 
@@ -37,11 +37,11 @@ function saveData() {
  * @param {*} exportName 
  */
 function downloadObjectAsJson(exportObj, exportName) {
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
-    var downloadAnchorNode = document.createElement('a');
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
+    const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href", dataStr);
     downloadAnchorNode.setAttribute("download", exportName + ".json");
-    document.body.appendChild(downloadAnchorNode); // required for firefox
+    document.body.appendChild(downloadAnchorNode); // required for Firefox
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
 }
@@ -54,25 +54,26 @@ export default function FormLayout() {
 
     return (
         <div>
+            <Header />
             <h2 className="text-3xl mb-3 leading-snug">Základní informace</h2>
-            <div>
+            <div className="mb-4">
                 <label>Název písně</label>
                 <input for="grid-first-name" type="text" id="fname" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
-            <div>
-                <label>Url adresa písně (nazev-pisne-jmeno-autora)</label>
+            <div className="mb-4">
+                <label>URL slug písně (nazev-pisne-jmeno-autora)</label>
                 <input for="grid-first-name" type="text" id="fslug" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
-            <div>
+            <div className="mb-4">
                 <label>Autor, skladatel, skupina</label>
                 <input for="grid-first-name" type="text" id="fauthor" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
-            <div>
+            <div className="mb-4">
                 <label>Poznámka</label>
                 <input for="grid-first-name" type="text" id="fnote" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></input>
             </div>
             <h2 className="text-3xl mb-3 leading-snug">Text písně s akordy</h2>
-            <div>
+            <div className="mb-4">
                 <label>Text písně musí vždy obsahovat akordy, které jsou v hranatých závorkách</label>
                 <textarea rows="10" id="ftext" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-y border rounded-md"></textarea>
             </div>
