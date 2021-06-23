@@ -1,6 +1,7 @@
 import Header from "./header";
 import { useState } from "react";
 import replaceAllInserter from "string.prototype.replaceall";
+import { TextField } from '@fluentui/react/lib/TextField';
 
 import unidecode from "unidecode";
 
@@ -22,9 +23,8 @@ class Song {
 /**
  * Save data from simply from into the json file.
  */
-function saveData() {
+function saveData(slug) {
   const name = document.getElementById("fname").value;
-  const slug = document.getElementById("fslug").value;
   const author = document.getElementById("fauthor").value;
   const note = document.getElementById("fnote").value;
   const text = document.getElementById("ftext").value;
@@ -72,10 +72,6 @@ export default function FormLayout() {
   const [songName, setSongName] = useState("");
   const [artistName, setArtistName] = useState("");
 
-  const handleClick = () => {
-    saveData();
-  };
-
   return (
     <div>
       <Header />
@@ -103,13 +99,11 @@ export default function FormLayout() {
         ></input>
       </div>
       <div className="mb-4">
-        <label>URL písně</label>
-        <input
-          for="grid-first-name"
-          type="text"
-          id="fslug"
-          disabled
+        <TextField
+          label="URL písně"
+          prefix="https://zpevnicek.studentstc.cz/song/"
           value={generateSlug(songName, artistName)}
+          ariaLabel="Okénko pro zobrazení URL adresy písně"
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
@@ -135,7 +129,7 @@ export default function FormLayout() {
         ></textarea>
       </div>
       <button
-        onClick={() => handleClick()}
+        onClick={() => saveData(generateSlug(songName, artistName))}
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
         Stáhnout JSON
