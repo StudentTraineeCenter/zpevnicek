@@ -1,21 +1,34 @@
 # Zpěvníček
-Jednoduchy zpěvníček s STC písněmi a správnými akordy.
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/MicrosoftSTC/zpevnicek)
 
-Článek, jak si zpěvníček vyrobit, neleznete na našem blogu: https://studuj.digital/2019/12/20/jak-pomoci-azure-vyrobit-jednoduchy-zpevnik-nejen-na-hudebni-vychovu/
+Jednoduchý zpěvníček s písněmi a správnými akordy.
 
 ## Jak přidat nový song
-<p>Formátování je v tuto chvíli inspirováno webem supermusic. Tedy akordy se píší do hranatých závorek <code>[A]</code> a poté jsou automaticky přeformátovány.
 
-## Plánované novinky
-<ul>
-    <li>transpozice</li>
-    <li>dark mode + normální grafika</li>
-    <li>autoscroll</li>
-    <li>automatické generování obsahu</li>
-    <li>importování z externích webů</li>
-    <li>PWA</li>
-    <li>vyhledávání</li>
-</ul>
+Přejdi na adresu formuláře pro tvorbu písniček. Vyplň pomocný formulář, stáhni .json soubor a nahraj ho do složky **_songs**. Vše ostatní se již udělá samo.
 
-## Jak pomoci
-Chceš něco zlepšit - pošli pull request
+Akordy piš do hranatých závorek (např. `[A]` pro akord A). Pokud ve formuláři uděláš nový řádek, ve zpěvníčku se vytvoří také.
+
+## Learning
+
+Na našem [blogu máme článek](https://studuj.digital/2019/12/20/jak-pomoci-azure-vyrobit-jednoduchy-zpevnik-nejen-na-hudebni-vychovu/), pomocí kterého si můžeš vytvořit svůj jednoduchý zpěvníček taky!
+
+## Commands
+
+Install dependences.
+```
+yarn
+```
+
+Starts the development server.
+```
+yarn dev
+```
+
+## Disclaimer
+
+Všechny texty písniček jsou dílem příslušných autorů.  
+Nepřisvojujeme si k nim vlastnictví ani žádná jiná práva.
+
+All song texts are the works of its respective authors.  
+We do not assume ownership or any rights to them.
