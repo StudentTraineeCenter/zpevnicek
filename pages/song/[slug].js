@@ -8,7 +8,6 @@ import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import Head from "next/head";
-import { CMS_NAME } from "../../lib/constants";
 
 export default function Post({ post, preview }) {
   const router = useRouter();
@@ -26,7 +25,7 @@ export default function Post({ post, preview }) {
             <article className="mb-32">
               <Head>
                 <title>
-                  {post.name} | Next.js Blog Example with {CMS_NAME}
+                  {post.name} | STC Zpěvníček
                 </title>
               </Head>
               <PostHeader name={post.name} author={post.author} />
