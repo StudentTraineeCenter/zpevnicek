@@ -6,7 +6,6 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 
 export default function Index({ allPosts }) {
-  const morePosts = allPosts;
   return (
     <>
       <Layout>
@@ -15,7 +14,7 @@ export default function Index({ allPosts }) {
         </Head>
         <Container>
           <Intro />
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>
       </Layout>
     </>

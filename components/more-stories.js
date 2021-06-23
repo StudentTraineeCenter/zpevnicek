@@ -1,7 +1,9 @@
 import PostPreview from "../components/post-preview";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function MoreStories({ posts }) {
+  const [usedCaps, setUsedCaps] = useState([]);
   return (
     <section>
       <div className="flex text-center justify-between">
@@ -27,15 +29,30 @@ export default function MoreStories({ posts }) {
       </div>
       <div className="flex flex-col justify-center items-center">
         <ul className="">
-          {posts.map((post) => (
-            <PostPreview
-              key={post.slug}
-              name={post.name}
-              author={post.author}
-              slug={post.slug}
-              text={post.text}
-            />
-          ))}
+          {posts.map((post) => {
+            let doCapital = true;
+            if (posts.indexOf(post) > 0) {
+              doCapital = !(
+                post.name[0] === posts[posts.indexOf(post) - 1].name[0]
+              );
+            }
+
+            return (
+              <div className={doCapital && "mt-4"}>
+                {doCapital && (
+                  <span className="text-4xl">{post.name[0]}</span>
+                )}
+
+                <PostPreview
+                  key={post.slug}
+                  name={post.name}
+                  author={post.author}
+                  slug={post.slug}
+                  text={post.text}
+                />
+              </div>
+            );
+          })}
         </ul>
       </div>
     </section>
