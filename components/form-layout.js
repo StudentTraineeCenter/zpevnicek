@@ -1,4 +1,10 @@
 import Header from "./header";
+import { useState } from "react";
+import replaceAllInserter from "string.prototype.replaceall";
+
+import unidecode from "unidecode";
+
+replaceAllInserter.shim();
 
 /**
  * Defintiion of the song class.
@@ -48,7 +54,24 @@ function downloadObjectAsJson(exportObj, exportName) {
   downloadAnchorNode.remove();
 }
 
+const generateSlug = (name, artist) => {
+  if (name && artist) {
+    return `${unidecode(name.toLowerCase().replaceAll(" ", "-"))}-${unidecode(
+      artist.toLowerCase().replaceAll(" ", "-")
+    )}`;
+  } else if (name) {
+    return `${unidecode(name.toLowerCase().replaceAll(" ", "-"))}`;
+  } else if (artist) {
+    return `${unidecode(artist.toLowerCase().replaceAll(" ", "-"))}`;
+  } else {
+    return "";
+  }
+};
+
 export default function FormLayout() {
+  const [songName, setSongName] = useState("");
+  const [artistName, setArtistName] = useState("");
+
   const handleClick = () => {
     saveData();
   };
@@ -63,15 +86,8 @@ export default function FormLayout() {
           for="grid-first-name"
           type="text"
           id="fname"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-        ></input>
-      </div>
-      <div className="mb-4">
-        <label>URL slug písně (nazev-pisne-jmeno-autora)</label>
-        <input
-          for="grid-first-name"
-          type="text"
-          id="fslug"
+          value={songName}
+          onChange={(e) => setSongName(e.target.value)}
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         ></input>
       </div>
@@ -81,8 +97,21 @@ export default function FormLayout() {
           for="grid-first-name"
           type="text"
           id="fauthor"
+          value={artistName}
+          onChange={(e) => setArtistName(e.target.value)}
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         ></input>
+      </div>
+      <div className="mb-4">
+        <label>URL písně</label>
+        <input
+          for="grid-first-name"
+          type="text"
+          id="fslug"
+          disabled
+          value={generateSlug(songName, artistName)}
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
       </div>
       <div className="mb-4">
         <label>Poznámka</label>
