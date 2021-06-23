@@ -1,7 +1,7 @@
 import Header from "./header";
 import { useState } from "react";
 import replaceAllInserter from "string.prototype.replaceall";
-import { TextField } from "@fluentui/react/lib/TextField";
+import { TextField } from "@fluentui/react";
 import Swal from "sweetalert2";
 
 import unidecode from "unidecode";
