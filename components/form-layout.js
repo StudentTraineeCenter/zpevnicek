@@ -55,7 +55,7 @@ function downloadObjectAsJson(exportObj, exportName) {
   const downloadAnchorNode = document.createElement("a");
   downloadAnchorNode.setAttribute("href", dataStr);
   downloadAnchorNode.setAttribute("download", exportName + ".json");
-  document.body.appendChild(downloadAnchorNode); // required for Firefox
+  document.body.appendChild(downloadAnchorNode); // required htmlFor Firefox
   downloadAnchorNode.click();
   downloadAnchorNode.remove();
 }
@@ -74,18 +74,18 @@ const generateSlug = (name, artist) => {
   }
 };
 
-export default function FormLayout() {
+export default function htmlFormLayout() {
   const [songName, setSongName] = useState("");
   const [artistName, setArtistName] = useState("");
 
   return (
     <div>
       <Header />
-      <h2 className="text-3xl mb-3 leading-snug">Základní informace</h2>
+      <h2 className="text-3xl mb-3 leading-snug">Základní inhtmlFormace</h2>
       <div className="mb-4">
         <label>Název písně</label>
         <input
-          for="grid-first-name"
+          htmlFor="grid-first-name"
           type="text"
           id="fname"
           value={songName}
@@ -96,7 +96,7 @@ export default function FormLayout() {
       <div className="mb-4">
         <label>Autor, skladatel, skupina</label>
         <input
-          for="grid-first-name"
+          htmlFor="grid-first-name"
           type="text"
           id="fauthor"
           value={artistName}
@@ -116,7 +116,7 @@ export default function FormLayout() {
       <div className="mb-4">
         <label>Poznámka</label>
         <input
-          for="grid-first-name"
+          htmlFor="grid-first-name"
           type="text"
           id="fnote"
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
