@@ -28,7 +28,7 @@ export default function MoreStories({ posts }) {
         </Link>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <ul className="">
+        <div>
           {posts.map((post) => {
             let doCapital = true;
             if (posts.indexOf(post) > 0) {
@@ -38,13 +38,12 @@ export default function MoreStories({ posts }) {
             }
 
             return (
-              <div className={doCapital && "mt-4"}>
+              <div className={doCapital && "mt-4"} key={post.slug}>
                 {doCapital && (
                   <span className="text-4xl">{post.name[0]}</span>
                 )}
 
                 <PostPreview
-                  key={post.slug}
                   name={post.name}
                   author={post.author}
                   slug={post.slug}
@@ -53,7 +52,7 @@ export default function MoreStories({ posts }) {
               </div>
             );
           })}
-        </ul>
+        </div>
       </div>
     </section>
   );
