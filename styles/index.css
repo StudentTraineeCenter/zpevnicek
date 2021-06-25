@@ -14,13 +14,18 @@
 
 /* Your own custom utilities */
 
+.searchBox input:focus {
+  transition-duration: 200ms;
+  border-color: #0078D4 !important;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #24292e;
     color: #fff;
   }
 
-  input, .search input,
+  input, .searchBox input,
   .react-search-box-dropdown-list-item, .ms-TextField-wrapper label {
     background: #24292e !important;
     color: white !important;
