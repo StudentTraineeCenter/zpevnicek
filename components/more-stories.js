@@ -12,7 +12,7 @@ export default function MoreStories({ posts, author = null }) {
         </h2>
         <div className="w-screen md:w-1/3 searchBox">
           <ReactSearchBox
-            placeholder="Prohledávej písničky"
+            placeholder={`Prohledávej ${author ? "autora" : "zpěvníček"}`}
             data={posts.map((post) => {
               let value = `${post.name} - ${post.author}`;
               if (author) value = post.name;
