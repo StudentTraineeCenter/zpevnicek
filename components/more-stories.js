@@ -14,7 +14,9 @@ export default function MoreStories({ posts, author = null }) {
           <ReactSearchBox
             placeholder="Prohledávej písničky"
             data={posts.map((post) => {
-              return { value: `${post.name} - ${post.author}`, key: post.slug }
+              let value = `${post.name} - ${post.author}`;
+              if (author) value = post.name;
+              return { value, key: post.slug }
             })}
             onSelect={record => {
               Router.push(`/song/${record.key}`)
