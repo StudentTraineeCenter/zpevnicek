@@ -21,7 +21,7 @@
   }
 
   input, .search input,
-  .react-search-box-dropdown-list-item {
+  .react-search-box-dropdown-list-item, .ms-TextField-wrapper label {
     background: #24292e !important;
     color: white !important;
   }
