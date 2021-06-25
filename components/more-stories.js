@@ -1,5 +1,7 @@
 import PostPreview from "../components/post-preview";
 import Link from "next/link";
+import ReactSearchBox from 'react-search-box'
+import Router from 'next/router';
 
 export default function MoreStories({ posts, author = null }) {
   return (
@@ -8,7 +10,19 @@ export default function MoreStories({ posts, author = null }) {
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
         </h2>
-        {!author && (
+        <ReactSearchBox
+          placeholder="Prohledávej písničky"
+          data={posts.map((post) => {
+            return { value: `${post.name} - ${post.author}`, key: post.slug }
+          })}
+          onSelect={record => {
+            Router.push(`/song/${record.key}`)
+          }
+          }
+        />
+      </div>
+      {!author && (
+        <div className="flex justify-end">
           <Link href="/form">
             <a>
               <svg
@@ -25,8 +39,9 @@ export default function MoreStories({ posts, author = null }) {
               </svg>
             </a>
           </Link>
-        )}
-      </div>
+        </div>
+
+      )}
       <div className="flex flex-col justify-center items-center">
         <ul className="">
           {posts.map((post) => {
