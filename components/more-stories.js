@@ -6,25 +6,28 @@ import Router from 'next/router';
 export default function MoreStories({ posts, author = null }) {
   return (
     <section>
-      <div className="flex text-center justify-between">
+      <div className="flex flex-wrap text-center justify-between">
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
         </h2>
-        <ReactSearchBox
-          placeholder="Prohledávej písničky"
-          data={posts.map((post) => {
-            return { value: `${post.name} - ${post.author}`, key: post.slug }
-          })}
-          onSelect={record => {
-            Router.push(`/song/${record.key}`)
-          }
-          }
-        />
+        <div className="w-screen md:w-1/3">
+          <ReactSearchBox
+            placeholder="Prohledávej písničky"
+            data={posts.map((post) => {
+              return { value: `${post.name} - ${post.author}`, key: post.slug }
+            })}
+            onSelect={record => {
+              Router.push(`/song/${record.key}`)
+            }
+            }
+          />
+        </div>
       </div>
       {!author && (
-        <div className="flex justify-end">
+        <div className="flex mt-4 text-2xl justify-center md:justify-end">
           <Link href="/form">
-            <a>
+            <a className="flex items-center">
+              <span className="md:hidden">Přidat</span>
               <svg
                 className="w-10 h-10"
                 fill="#0078D4"
