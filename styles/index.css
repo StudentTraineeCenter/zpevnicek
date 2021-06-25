@@ -19,6 +19,12 @@
     background: #24292e;
     color: #fff;
   }
+
+  input, .search input,
+  .react-search-box-dropdown-list-item {
+    background: #24292e !important;
+    color: white !important;
+  }
 }
 
 .chord {

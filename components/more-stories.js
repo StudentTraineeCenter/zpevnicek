@@ -10,7 +10,7 @@ export default function MoreStories({ posts, author = null }) {
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
         </h2>
-        <div className="w-screen md:w-1/3">
+        <div className="w-screen md:w-1/3 searchBox">
           <ReactSearchBox
             placeholder="Prohledávej písničky"
             data={posts.map((post) => {
