@@ -1,16 +1,35 @@
 import PostPreview from "../components/post-preview";
 import Link from "next/link";
+import ReactSearchBox from 'react-search-box'
+import Router from 'next/router';
 
 export default function MoreStories({ posts, author = null }) {
   return (
     <section>
-      <div className="flex text-center justify-between">
+      <div className="flex flex-wrap text-center justify-between">
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
         </h2>
-        {!author && (
+        <div className="w-screen md:w-1/3 searchBox">
+          <ReactSearchBox
+            placeholder={`Prohledávej ${author ? "autora" : "zpěvníček"}`}
+            data={posts.map((post) => {
+              let value = `${post.name} - ${post.author}`;
+              if (author) value = post.name;
+              return { value, key: post.slug }
+            })}
+            onSelect={record => {
+              Router.push(`/song/${record.key}`)
+            }
+            }
+          />
+        </div>
+      </div>
+      {!author && (
+        <div className="flex mt-4 text-2xl justify-center md:justify-end">
           <Link href="/form">
-            <a>
+            <a className="flex items-center">
+              <span className="md:hidden">Přidat</span>
               <svg
                 className="w-10 h-10"
                 fill="#0078D4"
@@ -25,8 +44,9 @@ export default function MoreStories({ posts, author = null }) {
               </svg>
             </a>
           </Link>
-        )}
-      </div>
+        </div>
+
+      )}
       <div className="flex flex-col justify-center items-center">
         <ul className="">
           {posts.map((post) => {
