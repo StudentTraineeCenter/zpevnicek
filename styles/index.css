@@ -26,7 +26,7 @@
   }
 
   input, .searchBox input,
-  .react-search-box-dropdown-list-item, .ms-TextField-wrapper label {
+  .react-search-box-dropdown-list-item, .ms-TextField-wrapper label, label.ms-Label {
     background: #24292e !important;
     color: white !important;
   }
@@ -40,6 +40,7 @@
   font-style: normal;
 }
 .song-text {
+  font-size: 1.125rem;
   line-height: 3rem;
   white-space: pre-line;
 }
