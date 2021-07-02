@@ -56,7 +56,7 @@ export default function MoreStories({ posts, author = null }) {
             }
 
             return (
-              <div className={doCapital && "mt-4"} key={post.slug}>
+              <div className={doCapital ? "mt-4" : undefined} key={post.slug}>
                 {doCapital && <span className="text-4xl">{post.name[0]}</span>}
 
                 <PostPreview
