@@ -8,6 +8,7 @@ import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import Head from "next/head";
+import Controller from "../../components/transposition-controller";
 
 export default function Post({ post, preview }) {
   const router = useRouter();
@@ -29,6 +30,7 @@ export default function Post({ post, preview }) {
                 </title>
               </Head>
               <PostHeader name={post.name} author={post.author} />
+              <Controller />
               <PostBody
                 author={post.author}
                 note={post.note}
