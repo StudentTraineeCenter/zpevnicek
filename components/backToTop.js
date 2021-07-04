@@ -7,7 +7,7 @@ export default function ReturnToTop() {
             showAt={500}
             speed={1500}
         >
-            <span className="bg-gray-700 px-5 py-2 rounded">↑</span>
+            <span className="text-white bg-gray-400 dark:bg-gray-700 px-5 py-2 rounded">↑</span>
         </BackToTop>
     )
 }
