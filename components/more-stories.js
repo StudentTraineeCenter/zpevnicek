@@ -2,8 +2,8 @@ import PostPreview from "../components/post-preview";
 import BackToTop from "../components/backToTop";
 
 import Link from "next/link";
-import ReactSearchBox from 'react-search-box'
-import Router from 'next/router';
+import ReactSearchBox from "react-search-box";
+import Router from "next/router";
 
 export default function MoreStories({ posts, author = null }) {
   return (
@@ -19,7 +19,7 @@ export default function MoreStories({ posts, author = null }) {
             data={posts.map((post) => {
               let value = `${post.name} - ${post.author}`;
               if (author) value = post.name;
-              return { value, key: post.slug }
+              return { value, key: post.slug };
             })}
             onSelect={record => {
               Router.push(`/song/${record.key}/`)
@@ -48,7 +48,6 @@ export default function MoreStories({ posts, author = null }) {
             </a>
           </Link>
         </div>
-
       )}
       <div className="flex flex-col justify-center items-center">
         <div>
@@ -61,10 +60,8 @@ export default function MoreStories({ posts, author = null }) {
             }
 
             return (
-              <div className={doCapital && "mt-4"} key={post.slug}>
-                {doCapital && (
-                  <span className="text-4xl">{post.name[0]}</span>
-                )}
+              <div className={doCapital ? "mt-4" : undefined} key={post.slug}>
+                {doCapital && <span className="text-4xl">{post.name[0]}</span>}
 
                 <PostPreview
                   name={post.name}
