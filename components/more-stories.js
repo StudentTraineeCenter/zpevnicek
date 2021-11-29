@@ -19,7 +19,7 @@ export default function MoreStories({ posts, author = null }) {
               return { value, key: post.slug }
             })}
             onSelect={record => {
-              Router.push(`/song/${record.key}`)
+              Router.push(`/song/${record.key}/`)
             }
             }
           />
@@ -27,7 +27,7 @@ export default function MoreStories({ posts, author = null }) {
       </div>
       {!author && (
         <div className="flex mt-4 text-2xl justify-center md:justify-end">
-          <Link href="/form">
+          <Link href="/form/">
             <a className="flex items-center">
               <span className="md:hidden">Přidat</span>
               <svg
