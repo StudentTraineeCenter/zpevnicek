@@ -9,7 +9,7 @@ export default function PostBody({ content, note, author }) {
     <div className="max-w-2xl mx-auto">
       <div className="dark:bg-gray-700 bg-gray-200 text-3xl px-4 py-6">
         {author && (
-          <Link href={`/author/${author}`}>
+          <Link href={`/author/${author}`} passHref>
             <div className="mb-3 cursor-pointer">
               <span title="Autor">👤:</span> {author}
             </div>
