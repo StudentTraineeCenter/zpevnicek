@@ -1,4 +1,6 @@
 import PostPreview from "../components/post-preview";
+import BackToTop from "../components/backToTop";
+
 import Link from "next/link";
 import ReactSearchBox from "react-search-box";
 import Router from "next/router";
@@ -6,6 +8,7 @@ import Router from "next/router";
 export default function MoreStories({ posts, author = null }) {
   return (
     <section>
+      <BackToTop />
       <div className="flex flex-wrap text-center justify-between">
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
@@ -18,15 +21,16 @@ export default function MoreStories({ posts, author = null }) {
               if (author) value = post.name;
               return { value, key: post.slug };
             })}
-            onSelect={(record) => {
-              Router.push(`/song/${record.key}`);
-            }}
+            onSelect={record => {
+              Router.push(`/song/${record.key}/`)
+            }
+            }
           />
         </div>
       </div>
       {!author && (
         <div className="flex mt-4 text-2xl justify-center md:justify-end">
-          <Link href="/form">
+          <Link href="/form/">
             <a className="flex items-center">
               <span className="md:hidden">Přidat</span>
               <svg

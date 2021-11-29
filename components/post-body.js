@@ -1,3 +1,5 @@
+import BackToTop from "../components/backToTop";
+
 import Link from "next/link";
 
 export default function PostBody({ content, note, author }) {
@@ -19,6 +21,7 @@ export default function PostBody({ content, note, author }) {
           </div>
         )}
       </div>
+      <BackToTop />
       <div
         className="text-xl mt-12 song-text"
         dangerouslySetInnerHTML={{
