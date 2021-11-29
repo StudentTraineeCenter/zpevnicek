@@ -81,7 +81,7 @@ export default function htmlFormLayout() {
   return (
     <div>
       <Header />
-      <h2 className="text-3xl mb-3 leading-snug">Základní inhtmlFormace</h2>
+      <h2 className="text-3xl mb-3 leading-snug">Základní informace</h2>
       <div className="mb-4">
         <label>Název písně</label>
         <input
