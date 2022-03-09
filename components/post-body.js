@@ -1,3 +1,5 @@
+import BackToTop from "../components/backToTop";
+
 import Link from "next/link";
 
 export default function PostBody({ content, note, author }) {
@@ -7,7 +9,7 @@ export default function PostBody({ content, note, author }) {
     <div className="max-w-2xl mx-auto">
       <div className="dark:bg-gray-700 bg-gray-200 text-3xl px-4 py-6">
         {author && (
-          <Link href={`/author/${author}`}>
+          <Link href={`/author/${author}`} passHref>
             <div className="mb-3 cursor-pointer">
               <span title="Autor">👤:</span> {author}
             </div>
@@ -19,6 +21,7 @@ export default function PostBody({ content, note, author }) {
           </div>
         )}
       </div>
+      <BackToTop />
       <div
         className="text-xl mt-12 song-text"
         dangerouslySetInnerHTML={{

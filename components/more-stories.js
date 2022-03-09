@@ -1,11 +1,14 @@
 import PostPreview from "../components/post-preview";
+import BackToTop from "../components/backToTop";
+
 import Link from "next/link";
-import ReactSearchBox from 'react-search-box'
-import Router from 'next/router';
+import ReactSearchBox from "react-search-box";
+import Router from "next/router";
 
 export default function MoreStories({ posts, author = null }) {
   return (
     <section>
+      <BackToTop />
       <div className="flex flex-wrap text-center justify-between">
         <h2 className="mb-8 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
           Seznam písniček {author && `od autora ${author}`}:
@@ -16,10 +19,10 @@ export default function MoreStories({ posts, author = null }) {
             data={posts.map((post) => {
               let value = `${post.name} - ${post.author}`;
               if (author) value = post.name;
-              return { value, key: post.slug }
+              return { value, key: post.slug };
             })}
             onSelect={record => {
-              Router.push(`/song/${record.key}`)
+              Router.push(`/song/${record.key}/`)
             }
             }
           />
@@ -27,7 +30,7 @@ export default function MoreStories({ posts, author = null }) {
       </div>
       {!author && (
         <div className="flex mt-4 text-2xl justify-center md:justify-end">
-          <Link href="/form">
+          <Link href="/form/">
             <a className="flex items-center">
               <span className="md:hidden">Přidat</span>
               <svg
@@ -45,7 +48,6 @@ export default function MoreStories({ posts, author = null }) {
             </a>
           </Link>
         </div>
-
       )}
       <div className="flex flex-col justify-center items-center">
         <div>
@@ -58,10 +60,8 @@ export default function MoreStories({ posts, author = null }) {
             }
 
             return (
-              <div className={doCapital && "mt-4"} key={post.slug}>
-                {doCapital && (
-                  <span className="text-4xl">{post.name[0]}</span>
-                )}
+              <div className={doCapital ? "mt-4" : undefined} key={post.slug}>
+                {doCapital && <span className="text-4xl">{post.name[0]}</span>}
 
                 <PostPreview
                   name={post.name}
