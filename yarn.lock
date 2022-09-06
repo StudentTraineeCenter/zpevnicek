@@ -6042,10 +6042,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-sweetalert2@^11.0.18:
-  version "11.4.24"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.24.tgz#9dbe1e3096d6fd739e03d5c5fe2d218638fceaf4"
-  integrity sha512-wbD3SbaOhWyebVfnrY9rMjjVf7ZKUHjmn5Ch83NWUg84b/SYn0N4F0Dhxq3QYSAbnAQ7ArovQb2JfxZi5+Ieug==
+sweetalert2@^11.4.30:
+  version "11.4.30"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.30.tgz#940e87050d81d545913c1d27d17f1fb56582b09e"
+  integrity sha512-rrFEglT7oqbZCSVSuK2q9+JDwYXbwVeRavJrbdECASFyq0o4kp5ImduVQAzwq42HfdSq+lvQJu0YpSwT9sLF/A==
 
 table@^6.0.9:
   version "6.8.0"
