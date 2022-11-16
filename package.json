@@ -7,7 +7,7 @@
         "start": "next start"
     },
     "dependencies": {
-        "@fluentui/react": "^8.20.2",
+        "@fluentui/react": "^8.101.2",
         "classnames": "^2.2.6",
         "date-fns": "^2.16.1",
         "gray-matter": "^4.0.2",
