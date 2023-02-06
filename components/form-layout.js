@@ -131,7 +131,7 @@ export default function htmlFormLayout() {
         <textarea
           rows="10"
           id="ftext"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-y border rounded-md"
+          className="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-y rounded-md"
         ></textarea>
       </div>
       <button
