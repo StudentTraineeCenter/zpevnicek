@@ -1,8 +1,7 @@
 import PostPreview from "../components/post-preview";
 
 import Link from "next/link";
-import ReactSearchBox from "react-search-box";
-import Router from "next/router";
+import SearchBox from "./search-box";
 
 export default function MoreStories({ posts, author = null }) {
   return (
@@ -12,18 +11,7 @@ export default function MoreStories({ posts, author = null }) {
           Seznam písniček {author && `od autora ${author}`}:
         </h2>
         <div className="w-screen md:w-1/3 searchBox">
-          <ReactSearchBox
-            placeholder={`Prohledávej ${author ? "autora" : "zpěvníček"}`}
-            data={posts.map((post) => {
-              let value = `${post.name} - ${post.author}`;
-              if (author) value = post.name;
-              return { value, key: post.slug };
-            })}
-            onSelect={record => {
-              Router.push(`/song/${record.key}/`)
-            }
-            }
-          />
+          <SearchBox author={author} posts={posts} />
         </div>
       </div>
       {!author && (
