@@ -10,7 +10,7 @@ export default function SearchBox({ author, posts }) {
         return { value, key: post.slug };
       })}
       onSelect={(record) => {
-        Router.push(`/song/${record.key}/`);
+        Router.push(`/song/${record.item.key}/`);
       }}
     />
   );
