@@ -24,7 +24,7 @@ export default function Post({ post, preview }) {
           <>
             <article className="mb-32">
               <Head>
-                <title>{post.name} | STC Zpěvníček</title>
+                <title>{`${post.name} | STC Zpěvníček`}</title>
               </Head>
               <PostHeader name={post.name} author={post.author} />
               <PostBody

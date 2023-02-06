@@ -13,7 +13,7 @@ export default function Author({ allPosts, author }) {
     <>
       <Layout>
         <Head>
-          <title>{author} | STC Zpěvníček</title>
+          <title>{`${author} | STC Zpěvníček`}</title>
         </Head>
         <Container>
           <Header />
