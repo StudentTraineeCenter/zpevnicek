@@ -18,9 +18,9 @@ module.exports = withPWA({
               "public,s-maxage=2419200,stale-while-revalidate=1209600,stale-if-error=31536000",
           },
           {
-            key: 'X-Frame-Options',
-            value: 'ALLOW-FROM https://teams.microsoft.com/'
-          }
+            key: "X-Frame-Options",
+            value: "ALLOW-FROM https://teams.microsoft.com/",
+          },
         ],
       },
     ];
