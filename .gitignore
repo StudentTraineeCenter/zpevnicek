@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# custom json files
+_songs-metadata.json

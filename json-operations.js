@@ -19,7 +19,14 @@ class MetaSong {
  */
 function generateMetaJson() {
   const files = fs.readdirSync("_songs");
-
+  files.map((file) => {
+    const song = JSON.parse(fs.readFileSync(`_songs/${file}`));
+    fs.writeFileSync(
+      "_songs-metadata.json",
+      JSON.stringify(new MetaSong(song.name, song.slug, song.author)) + ",",
+      { flag: "a+" }
+    );
+  });
 }
 
 generateMetaJson();
