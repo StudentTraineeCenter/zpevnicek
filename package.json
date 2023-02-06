@@ -5,7 +5,7 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "pre-build": "node .\\json-operations.js -m"
+        "prebuild": "node .\\json-operations.js -m"
     },
     "dependencies": {
         "@fluentui/react": "^8.103.3",
