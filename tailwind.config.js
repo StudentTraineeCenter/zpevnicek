@@ -1,7 +1,7 @@
 module.exports = {
-  darkMode: "media",
-  mode: "jit",
-  purge: ["./components/**/*.js", "./pages/**/*.js"],
+  darkMode: 'media',
+  mode: 'jit',
+  content: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
       colors: {
