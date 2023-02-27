@@ -4,17 +4,17 @@
     "scripts": {
         "dev": "next",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "prebuild": "node .\\json-operations.js -m"
     },
     "dependencies": {
         "@fluentui/react": "^8.103.3",
-        "classnames": "^2.2.6",
+        "classnames": "^2.3.2",
         "date-fns": "^2.16.1",
         "gray-matter": "^4.0.2",
         "next": "^12.3.1",
         "next-pwa": "^5.2.21",
         "react": "^17.0.2",
-        "react-back-to-top-button": "^0.0.14",
         "react-dom": "^17.0.2",
         "react-search-box": "^2.3.0",
         "remark": "^14.0.2",
@@ -24,10 +24,10 @@
         "unidecode": "^0.1.8"
     },
     "devDependencies": {
+        "eslint-config-next": "^13.1.6",
+        "postcss": "^8.4.21",
         "eslint": "^8.35.0",
         "autoprefixer": "^10.4.13",
-        "eslint-config-next": "^12.3.1",
-        "postcss": "^8.4.18",
         "tailwindcss": "^3.2.7"
     }
 }
