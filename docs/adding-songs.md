@@ -13,11 +13,11 @@
       - **Text písně s akordy**
         - Text písně musí vždy obsahovat akordy, které jsou v hranatých závorkách.
         - Akordy musejí být po celou dobu písně i pokud se opakují.
-        - Snažíme se zpěvníček tvořit celistvě a komplexne. Proto každá píseň musí být psaná celá, tj. ne např. text sloky a následně R jako refrén, ale je třeba zkopírovat celý text refrénu.
-        - Pokud uděláte nový řádek, udělá se ový řádek i ve zpěvníčku.
-        - Každý akord musí být napsaný v jedněch závorchá `[Ami][Emi]`. Syntaxe `[Ami, Emi]` je zakázaná z důvodu automatické transpozice tóniny.
+        - Snažíme se zpěvníček tvořit celistvě a komplexně. Proto každá píseň musí být psaná celá, tj. ne např. text sloky a následně R jako refrén, ale je třeba zkopírovat celý text refrénu.
+        - Pokud uděláte nový řádek, udělá se nový řádek i ve zpěvníčku.
+        - Každý akord musí být napsaný v jedněch závorkách `[Ami][Emi]`. Syntaxe `[Ami, Emi]` je zakázaná z důvodu automatické transpozice tóniny.
         - Pole pro obsah lze zvětšit v pravém dolním rohu.
-3. Před stažením si vše řádně zkontrolujte, připadně si celou píseň zahrajte, abyte ověřili, že nedošlo k chybě.
+3. Před stažením si vše řádně zkontrolujte, případně si celou píseň zahrajte, abyste ověřili, že nedošlo k chybě.
 4.	Stáhněte soubor JSON obsahující píseň.
 
 ## Nahrání souboru
@@ -43,7 +43,7 @@
    - jasný název v angličtině
    - popis, jaké písně přidáváte
    - label: content
-   - k *Reviewer* přiřazeného uživatele `petrkucerak` - pokud tento krok neučinítě, nemusíme si všimnout žádosti o přidání nové písně
+   - k *Reviewer* přiřazeného uživatele `petrkucerak` - pokud tento krok neučiníte, nemusíme si všimnout žádosti o přidání nové písně
 
 ![screenshot pull requestu](adding-songs-07.png)
 ![screenshot pull requestu](adding-songs-08.png)
