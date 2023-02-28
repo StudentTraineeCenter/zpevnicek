@@ -5,6 +5,7 @@ import { TextField } from "@fluentui/react";
 import Swal from "sweetalert2";
 
 import unidecode from "unidecode";
+import Link from "next/link";
 
 replaceAllInserter.shim();
 
@@ -134,12 +135,19 @@ export default function htmlFormLayout() {
           className="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-y rounded-md"
         ></textarea>
       </div>
-      <button
-        onClick={() => saveData(generateSlug(songName, artistName))}
-        className="bg-[#0078D4] hover:bg-[#004377] duration-200	text-white font-bold py-2 px-4 rounded"
-      >
-        Stáhnout JSON
-      </button>
+      <div className="w-full flex justify-between">
+        <button
+          onClick={() => saveData(generateSlug(songName, artistName))}
+          className="bg-[#0078D4] hover:bg-[#004377] duration-200	text-white font-bold py-2 px-4 rounded"
+        >
+          Stáhnout JSON
+        </button>
+        <Link href="https://github.com/StudentTraineeCenter/zpevnicek/blob/master/docs/adding-songs.md">
+          <button className="bg-[#acacac] hover:bg-[#808080] duration-200	text-white font-bold py-2 px-4 rounded">
+            Jak nahrát píseň
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }
