@@ -22,6 +22,11 @@ Install dependences.
 yarn
 ```
 
+Build metafiles.
+```
+yarn prebuild
+```
+
 Starts the development server.
 ```
 yarn dev
