@@ -1,5 +1,4 @@
 # Zpěvníček
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/MicrosoftSTC/zpevnicek)
 
 Jednoduchý zpěvníček s písněmi a správnými akordy.
 
@@ -20,6 +19,11 @@ Na našem [blogu máme článek](https://studuj.digital/2019/12/20/jak-pomoci-az
 Install dependences.
 ```
 yarn
+```
+
+Build metafiles.
+```
+yarn prebuild
 ```
 
 Starts the development server.
