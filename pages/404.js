@@ -8,13 +8,13 @@ export default function Page404() {
       <Layout>
         <Head>
           <title>ERROR 404</title>
-          
+          <p class= "text-center">Page not found</p>
         </Head>
         <div>ERROR 404</div> 
         <Container>
         
         </Container>
       </Layout>
-    </>
+      </>
   );
 }
