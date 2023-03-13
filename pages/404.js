@@ -8,11 +8,11 @@ export default function Page404() {
 
   // define an array of Microsoft icons to display
   const microsoftIcons = [
-    "public\favicon\365.png",
-    "public\favicon\azure.png",
-    "public\favicon\Minecraft.png",
-    "public\favicon\Power.png",
-    "public\favicon\Windows.png"
+    "/favicon/365.png",
+    "/favicon/azure.png",
+    "/favicon/Minecraft.png",
+    "/favicon/Power.png",
+    "/favicon/Windows.png"
   ];
 
   // generate a random position for each icon
