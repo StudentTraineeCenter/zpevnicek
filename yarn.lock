@@ -917,11 +917,11 @@
     "@fluentui/utilities" "^8.13.9"
     tslib "^2.1.0"
 
-"@fluentui/react-portal-compat-context@^9.0.4":
-  version "9.0.4"
-  resolved "https://registry.npmjs.org/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.4.tgz"
+"@fluentui/react-portal-compat-context@^9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.5.tgz#f1e93631a0887316ed71a8286f368e7be7d5ef09"
   dependencies:
-    tslib "^2.1.0"
+    "@swc/helpers" "^0.4.14"
 
 "@fluentui/react-window-provider@^2.2.9":
   version "2.2.9"
@@ -930,9 +930,9 @@
     "@fluentui/set-version" "^8.2.6"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.106.7":
-  version "8.106.7"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.106.7.tgz#c4a7c114fb1171315a369b727b243c070ebdd052"
+"@fluentui/react@^8.107.0":
+  version "8.107.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.107.0.tgz#d98ba450353123796b2cee894458cad475cf2e40"
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.6"
     "@fluentui/font-icons-mdl2" "^8.5.13"
@@ -940,7 +940,7 @@
     "@fluentui/merge-styles" "^8.5.7"
     "@fluentui/react-focus" "^8.8.19"
     "@fluentui/react-hooks" "^8.6.20"
-    "@fluentui/react-portal-compat-context" "^9.0.4"
+    "@fluentui/react-portal-compat-context" "^9.0.5"
     "@fluentui/react-window-provider" "^2.2.9"
     "@fluentui/set-version" "^8.2.6"
     "@fluentui/style-utilities" "^8.9.6"
@@ -1185,6 +1185,12 @@
 "@swc/helpers@0.4.11":
   version "0.4.11"
   resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.11.tgz"
+  dependencies:
+    tslib "^2.4.0"
+
+"@swc/helpers@^0.4.14":
+  version "0.4.14"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
   dependencies:
     tslib "^2.4.0"
 
