@@ -4098,9 +4098,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
 
-sweetalert2@^11.7.2:
-  version "11.7.3"
-  resolved "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.7.3.tgz"
+sweetalert2@^11.7.10:
+  version "11.7.10"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.7.10.tgz#514a9cb89e0d9916fc30608c76432db0cfc3f82c"
 
 synckit@^0.8.4:
   version "0.8.5"
