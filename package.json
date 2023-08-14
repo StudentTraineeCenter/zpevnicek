@@ -2,7 +2,7 @@
     "name": "stczpevnicek",
     "version": "2.0.1",
     "scripts": {
-        "dev": "next",
+        "dev": "node json-operations.js -m && next",
         "build": "next build",
         "start": "next start",
         "prebuild": "node json-operations.js -m"
