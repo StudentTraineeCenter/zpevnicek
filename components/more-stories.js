@@ -1,6 +1,4 @@
-"use client";
 import PostPreview from "../components/post-preview";
-
 import Link from "next/link";
 import SearchBox from "./search-box";
 
