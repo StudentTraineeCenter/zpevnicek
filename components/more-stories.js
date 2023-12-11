@@ -1,5 +1,4 @@
 import PostPreview from "../components/post-preview";
-
 import Link from "next/link";
 import SearchBox from "./search-box";
 
@@ -16,22 +15,20 @@ export default function MoreStories({ posts, author = null }) {
       </div>
       {!author && (
         <div className="flex mt-4 text-2xl justify-center md:justify-end">
-          <Link href="/form/">
-            <a className="flex items-center">
-              <span className="md:hidden">Přidat</span>
-              <svg
-                className="w-10 h-10"
-                fill="#0078D4"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
+          <Link href="/form/" className="flex items-center">
+            <span className="md:hidden">Přidat</span>
+            <svg
+              className="w-10 h-10"
+              fill="#0078D4"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                clipRule="evenodd"
+              />
+            </svg>
           </Link>
         </div>
       )}
