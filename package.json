@@ -18,7 +18,7 @@
         "react-dom": "^18.2.0",
         "react-search-box": "^3.0.0",
         "remark": "^15.0.1",
-        "remark-html": "^15.0.2",
+        "remark-html": "^16.0.1",
         "string.prototype.replaceall": "^1.0.7",
         "sweetalert2": "^11.7.18",
         "unidecode": "^0.1.8"
