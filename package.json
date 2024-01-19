@@ -24,7 +24,7 @@
         "unidecode": "^0.1.8"
     },
     "devDependencies": {
-        "eslint-config-next": "^13.4.10",
+        "eslint-config-next": "^14.1.0",
         "postcss": "^8.4.31",
         "eslint": "^8.39.0",
         "autoprefixer": "^10.4.14",
