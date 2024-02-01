@@ -20,7 +20,7 @@
         "remark": "^15.0.1",
         "remark-html": "^15.0.2",
         "string.prototype.replaceall": "^1.0.7",
-        "sweetalert2": "^11.7.18",
+        "sweetalert2": "^11.10.4",
         "unidecode": "^0.1.8"
     },
     "devDependencies": {
