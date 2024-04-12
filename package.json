@@ -23,7 +23,7 @@
         "remark-html": "^16.0.1",
         "string.prototype.replaceall": "^1.0.10",
         "sweetalert2": "^11.10.7",
-        "unidecode": "^0.1.8"
+        "unidecode": "^1.0.1"
     },
     "devDependencies": {
         "@types/react": "^18.2.77",
