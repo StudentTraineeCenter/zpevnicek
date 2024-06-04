@@ -2250,7 +2250,7 @@ __metadata:
     string.prototype.replaceall: "npm:^1.0.10"
     sweetalert2: "npm:^11.11.0"
     tailwindcss: "npm:^3.4.3"
-    unidecode: "npm:^1.0.1"
+    unidecode: "npm:^1.1.0"
   languageName: unknown
   linkType: soft
 
@@ -7717,10 +7717,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unidecode@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "unidecode@npm:1.0.1"
-  checksum: 10c0/34c8a4b51c1b94d88f5945a9530bd116c22395af0479208608910fedeaf5c2de6d080ec598aef8e56bd83de626a1f7e73c549d0849379e22220fe0d8041ad5bd
+"unidecode@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "unidecode@npm:1.1.0"
+  checksum: 10c0/e9827ba9f981b01a29c694781b1a7baec051635621989ffda76e7e3433798918352ff217296ae287764a7c8c86987051a5ae31d243316538781d1be87b30a3d0
   languageName: node
   linkType: hard
 
