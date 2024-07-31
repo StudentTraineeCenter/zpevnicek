@@ -1583,9 +1583,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react@npm:^8.119.3":
-  version: 8.119.3
-  resolution: "@fluentui/react@npm:8.119.3"
+"@fluentui/react@npm:^8.120.0":
+  version: 8.120.0
+  resolution: "@fluentui/react@npm:8.120.0"
   dependencies:
     "@fluentui/date-time-utilities": "npm:^8.6.9"
     "@fluentui/font-icons-mdl2": "npm:^8.5.47"
@@ -1606,7 +1606,7 @@ __metadata:
     "@types/react-dom": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
     react-dom: ">=16.8.0 <19.0.0"
-  checksum: 10c0/10b709f1c225d2b7436a05d902410b6122c8b1dec3d9f9d6d7dc270d2af2ee8f01ccbc6bc912905688eeb463ad7ec7373bf676240057011759395a200e73dacf
+  checksum: 10c0/1d7f7fbd55eaa185f66e5254078a5d2d011d60f9d1496e05a57929050efa3dd9122b62ddfd31bb97d430508d21a155381c037e717450875064f5de625baa3531
   languageName: node
   linkType: hard
 
@@ -2028,7 +2028,7 @@ __metadata:
   resolution: "@stccz/zpevnicek@workspace:."
   dependencies:
     "@ducanh2912/next-pwa": "npm:^10.2.8"
-    "@fluentui/react": "npm:^8.119.3"
+    "@fluentui/react": "npm:^8.120.0"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     autoprefixer: "npm:^10.4.19"
