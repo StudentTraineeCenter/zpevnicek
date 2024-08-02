@@ -2045,7 +2045,7 @@ __metadata:
     remark: "npm:^15.0.1"
     remark-html: "npm:^16.0.1"
     string.prototype.replaceall: "npm:^1.0.10"
-    sweetalert2: "npm:^11.12.2"
+    sweetalert2: "npm:^11.12.4"
     tailwindcss: "npm:^3.4.7"
     unidecode: "npm:^1.1.0"
   languageName: unknown
@@ -7139,10 +7139,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sweetalert2@npm:^11.12.2":
-  version: 11.12.2
-  resolution: "sweetalert2@npm:11.12.2"
-  checksum: 10c0/08d6dc2cbf5ca1d82a484aa3149cadd4e0db2ba39615b7f2d5c7c276dad8fd55bd244ffe48088e73b451d27f87d48711d22d1d14d55a891452202e024596b9a1
+"sweetalert2@npm:^11.12.4":
+  version: 11.12.4
+  resolution: "sweetalert2@npm:11.12.4"
+  checksum: 10c0/bdbd511dbc5dbfc77438289a2709c9e206c7248189f4d0133cf603d3e390fbe5dac638d9373397173889745b2507973610c18aff5f897eec3f3b6121c91727c1
   languageName: node
   linkType: hard
 
