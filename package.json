@@ -1,9 +1,9 @@
 {
     "name": "@stccz/zpevnicek",
-    "packageManager": "yarn@4.4.0",
+    "packageManager": "yarn@4.4.1",
     "private": true,
     "engines": {
-        "node": "^20.16.0"
+        "node": "^20.17.0"
     },
     "scripts": {
         "dev": "node json-operations.js -m && next",
@@ -12,28 +12,28 @@
         "prebuild": "node json-operations.js -m"
     },
     "dependencies": {
-        "@ducanh2912/next-pwa": "^10.2.8",
-        "@fluentui/react": "^8.120.6",
+        "@ducanh2912/next-pwa": "^10.2.9",
+        "@fluentui/react": "^8.120.9",
         "classnames": "^2.5.1",
-        "date-fns": "^3.6.0",
+        "date-fns": "^4.1.0",
         "gray-matter": "^4.0.3",
-        "next": "^14.2.6",
+        "next": "^14.2.13",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-search-box": "^3.0.0",
         "remark": "^15.0.1",
         "remark-html": "^16.0.1",
         "string.prototype.replaceall": "^1.0.10",
-        "sweetalert2": "^11.12.4",
+        "sweetalert2": "^11.14.1",
         "unidecode": "^1.1.0"
     },
     "devDependencies": {
-        "@types/react": "^18.3.4",
+        "@types/react": "^18.3.8",
         "@types/react-dom": "^18.3.0",
         "autoprefixer": "^10.4.20",
-        "eslint": "^8.57.0",
-        "eslint-config-next": "^14.2.6",
-        "postcss": "^8.4.41",
-        "tailwindcss": "^3.4.10"
+        "eslint": "^8.57.1",
+        "eslint-config-next": "^14.2.13",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13"
     }
 }
