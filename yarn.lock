@@ -1486,31 +1486,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/font-icons-mdl2@npm:^8.5.50":
-  version: 8.5.50
-  resolution: "@fluentui/font-icons-mdl2@npm:8.5.50"
+"@fluentui/font-icons-mdl2@npm:^8.5.52":
+  version: 8.5.52
+  resolution: "@fluentui/font-icons-mdl2@npm:8.5.52"
   dependencies:
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/style-utilities": "npm:^8.10.21"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/style-utilities": "npm:^8.11.1"
+    "@fluentui/utilities": "npm:^8.15.17"
     tslib: "npm:^2.1.0"
-  checksum: 10c0/ae0566236ddfb36d6448bee82a26e5ba2327d3060f28f2ebbf23ee22e0e689174ade51e53f10bfad6cb968c2bd8fc592fbbc822b77ccd1a892a448b4537b9433
+  checksum: 10c0/e913a20370824d5f535145728c1564519847c2198be159c1c5e8e7a56ae6f43094da12c585dc75ba1a62d950f8fb63e108bb4cf7d950140896880a023ca8a4a6
   languageName: node
   linkType: hard
 
-"@fluentui/foundation-legacy@npm:^8.4.16":
-  version: 8.4.16
-  resolution: "@fluentui/foundation-legacy@npm:8.4.16"
+"@fluentui/foundation-legacy@npm:^8.4.18":
+  version: 8.4.18
+  resolution: "@fluentui/foundation-legacy@npm:8.4.18"
   dependencies:
     "@fluentui/merge-styles": "npm:^8.6.13"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/style-utilities": "npm:^8.10.21"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/style-utilities": "npm:^8.11.1"
+    "@fluentui/utilities": "npm:^8.15.17"
     tslib: "npm:^2.1.0"
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/eae6d446095159aa5fd441d55f784396611ec955d91b0a32b627ab58d8b9e60baac683a3f5c10169d97842caaf06ed64486d5bf923a72a7c15e0eff57e4dbba5
+  checksum: 10c0/479f2344860a4548eb82577c5db4671c9311981172b34411d5fb161818f5499ab68a962dd89c310eb4fd34ed81f4d99efb3018c2275727d753ed76f2713f362e
   languageName: node
   linkType: hard
 
@@ -1533,35 +1533,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react-focus@npm:^8.9.13":
-  version: 8.9.13
-  resolution: "@fluentui/react-focus@npm:8.9.13"
+"@fluentui/react-focus@npm:^8.9.15":
+  version: 8.9.15
+  resolution: "@fluentui/react-focus@npm:8.9.15"
   dependencies:
     "@fluentui/keyboard-key": "npm:^0.4.23"
     "@fluentui/merge-styles": "npm:^8.6.13"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/style-utilities": "npm:^8.10.21"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/style-utilities": "npm:^8.11.1"
+    "@fluentui/utilities": "npm:^8.15.17"
     tslib: "npm:^2.1.0"
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/55a3e843aa14dd5799d689f1612b03c5146849867b913eedc5d168ed831504701fb3a79c89cf9988eee7613491741161541c751c965f5529d561c2cf5d1190cd
+  checksum: 10c0/00c3d94088f51809048896ca502e02b2b64fb706b304191d77305f17c566ab65704d5d1c5efeac25e38f4ebad97fec4848a91ef059efbd831b98c395a80309e7
   languageName: node
   linkType: hard
 
-"@fluentui/react-hooks@npm:^8.8.12":
-  version: 8.8.12
-  resolution: "@fluentui/react-hooks@npm:8.8.12"
+"@fluentui/react-hooks@npm:^8.8.14":
+  version: 8.8.14
+  resolution: "@fluentui/react-hooks@npm:8.8.14"
   dependencies:
     "@fluentui/react-window-provider": "npm:^2.2.28"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/utilities": "npm:^8.15.17"
     tslib: "npm:^2.1.0"
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/a5840011a13e67b4b9c96d916fddaa9149d08ff77f6e3f368b76e40f319ab905d8b334cbc5b5fd0879f383a05c5e24e57ac24353e540d9913ab0cf87a2f79cec
+  checksum: 10c0/44997629198f94784b229020e0a6fb9084cfefd409627b9652932519ad66829469b23e71a4f3a63ea12868e94d18d4a3487e42d226e00850bfe5ba5367f7f4a6
   languageName: node
   linkType: hard
 
@@ -1590,22 +1590,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react@npm:^8.120.9":
-  version: 8.120.9
-  resolution: "@fluentui/react@npm:8.120.9"
+"@fluentui/react@npm:^8.121.1":
+  version: 8.121.1
+  resolution: "@fluentui/react@npm:8.121.1"
   dependencies:
     "@fluentui/date-time-utilities": "npm:^8.6.9"
-    "@fluentui/font-icons-mdl2": "npm:^8.5.50"
-    "@fluentui/foundation-legacy": "npm:^8.4.16"
+    "@fluentui/font-icons-mdl2": "npm:^8.5.52"
+    "@fluentui/foundation-legacy": "npm:^8.4.18"
     "@fluentui/merge-styles": "npm:^8.6.13"
-    "@fluentui/react-focus": "npm:^8.9.13"
-    "@fluentui/react-hooks": "npm:^8.8.12"
+    "@fluentui/react-focus": "npm:^8.9.15"
+    "@fluentui/react-hooks": "npm:^8.8.14"
     "@fluentui/react-portal-compat-context": "npm:^9.0.12"
     "@fluentui/react-window-provider": "npm:^2.2.28"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/style-utilities": "npm:^8.10.21"
-    "@fluentui/theme": "npm:^2.6.59"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/style-utilities": "npm:^8.11.1"
+    "@fluentui/theme": "npm:^2.6.61"
+    "@fluentui/utilities": "npm:^8.15.17"
     "@microsoft/load-themed-styles": "npm:^1.10.26"
     tslib: "npm:^2.1.0"
   peerDependencies:
@@ -1613,7 +1613,7 @@ __metadata:
     "@types/react-dom": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
     react-dom: ">=16.8.0 <19.0.0"
-  checksum: 10c0/33b067081e19e624d2717c29d99a9d9eaac6911a0044c915055272b99b9056ac7f49f826e8e19ca80f1d1b657c10033eb80a248405dc0db362a0978ea921316a
+  checksum: 10c0/47e090e71e6db33df30a5ece1b60e9bf4e1fa882e74b773527be360498f30a7b9b1e3e37e00a3024f4fb01b1b28b0cd0aa81d7f96111c074bca27202cb250d2f
   languageName: node
   linkType: hard
 
@@ -1626,38 +1626,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/style-utilities@npm:^8.10.21":
-  version: 8.10.21
-  resolution: "@fluentui/style-utilities@npm:8.10.21"
+"@fluentui/style-utilities@npm:^8.11.1":
+  version: 8.11.1
+  resolution: "@fluentui/style-utilities@npm:8.11.1"
   dependencies:
     "@fluentui/merge-styles": "npm:^8.6.13"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/theme": "npm:^2.6.59"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/theme": "npm:^2.6.61"
+    "@fluentui/utilities": "npm:^8.15.17"
     "@microsoft/load-themed-styles": "npm:^1.10.26"
     tslib: "npm:^2.1.0"
-  checksum: 10c0/91b0230e7b52af6991b97c7d57969049e7507ea27e9a0ffd018ffb38d317ce90de63a9df30dde2ce1a7fa61f2d3ff4d70ab1c568eb09f825d1c5a5a4b9cdccfc
+  checksum: 10c0/3fc49a099cc791d9ca2386c84ebfd8172f6250b03cc81a7e4742090064e9a5d633958230da46f241684b68690e0dbc640622b86016720098b1006c87355df256
   languageName: node
   linkType: hard
 
-"@fluentui/theme@npm:^2.6.59":
-  version: 2.6.59
-  resolution: "@fluentui/theme@npm:2.6.59"
+"@fluentui/theme@npm:^2.6.61":
+  version: 2.6.61
+  resolution: "@fluentui/theme@npm:2.6.61"
   dependencies:
     "@fluentui/merge-styles": "npm:^8.6.13"
     "@fluentui/set-version": "npm:^8.2.23"
-    "@fluentui/utilities": "npm:^8.15.15"
+    "@fluentui/utilities": "npm:^8.15.17"
     tslib: "npm:^2.1.0"
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/d367293969cac94d7a8f5b03b0d6cbf6a149b3fb12492afe005146ff0900656a6a620c0dddefd3e563ebf13d5a1aa6ed8a71c5caa921576a03345ab5ef26c70c
+  checksum: 10c0/4ca9b318f420f4dc9ca160c1f83648346d326d41eb4a096bdf0be707108688527da1be05dca186c8ad7815f9f90523fea047dd868b9f6c2fa2342dba371619a3
   languageName: node
   linkType: hard
 
-"@fluentui/utilities@npm:^8.15.15":
-  version: 8.15.15
-  resolution: "@fluentui/utilities@npm:8.15.15"
+"@fluentui/utilities@npm:^8.15.17":
+  version: 8.15.17
+  resolution: "@fluentui/utilities@npm:8.15.17"
   dependencies:
     "@fluentui/dom-utilities": "npm:^2.3.7"
     "@fluentui/merge-styles": "npm:^8.6.13"
@@ -1667,7 +1667,7 @@ __metadata:
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/a7c911dd8a342917870996d224480406f6c726d17439202f94954f4d26003ab599e69a8a5ad71ea58d8a65bb15d24bd0415b7cd7be4fdfdca733a0aed16efa82
+  checksum: 10c0/124edc410ae7de3da1e837558516572b5454c032244bece25989029dbacb4049c129f6518fa7e935c434ec8c6a408c6f688457cf4b92b8b4d87a2ab48669245c
   languageName: node
   linkType: hard
 
@@ -1776,81 +1776,81 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/env@npm:14.2.13"
-  checksum: 10c0/d7e4a5ad5ee9e2d7a819a208e3c187fae7e69446360bb25354ce9c4a82696adbc6545a11ee67e940b99e1c0a614a27cb308b882ae23b6c633f36e313a458423a
+"@next/env@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/env@npm:14.2.14"
+  checksum: 10c0/07060e631dfe795359a6bf509069f19e2fde1aa36a8e845d293ae6194bfdfcd7e0b1a628626083a2bb2b46a4702f8428bc2a21913f24b88ec53f773c50c14a9f
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/eslint-plugin-next@npm:14.2.13"
+"@next/eslint-plugin-next@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/eslint-plugin-next@npm:14.2.14"
   dependencies:
     glob: "npm:10.3.10"
-  checksum: 10c0/8ef8e6289f0e447f0e59aca1f70594be0b4b9f23723684f7ad6eb58ca8b874d05dd3577feddafd3953aa302272c5bc525e369bcc0eeaabc7264e5ad9bac98d95
+  checksum: 10c0/d999a440e8976a39779edae67ef85b450231557742c1497e72d0fd017eb67fdaf67c1ffbfc56ae6ce2175a3d09720ad826074cea406a6579d82b02cc4ee00a73
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-darwin-arm64@npm:14.2.13"
+"@next/swc-darwin-arm64@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-darwin-arm64@npm:14.2.14"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-darwin-x64@npm:14.2.13"
+"@next/swc-darwin-x64@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-darwin-x64@npm:14.2.14"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.13"
+"@next/swc-linux-arm64-gnu@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.14"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-linux-arm64-musl@npm:14.2.13"
+"@next/swc-linux-arm64-musl@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-linux-arm64-musl@npm:14.2.14"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-linux-x64-gnu@npm:14.2.13"
+"@next/swc-linux-x64-gnu@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-linux-x64-gnu@npm:14.2.14"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-linux-x64-musl@npm:14.2.13"
+"@next/swc-linux-x64-musl@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-linux-x64-musl@npm:14.2.14"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.13"
+"@next/swc-win32-arm64-msvc@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.14"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.13"
+"@next/swc-win32-ia32-msvc@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.14"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:14.2.13":
-  version: 14.2.13
-  resolution: "@next/swc-win32-x64-msvc@npm:14.2.13"
+"@next/swc-win32-x64-msvc@npm:14.2.14":
+  version: 14.2.14
+  resolution: "@next/swc-win32-x64-msvc@npm:14.2.14"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2035,16 +2035,16 @@ __metadata:
   resolution: "@stccz/zpevnicek@workspace:."
   dependencies:
     "@ducanh2912/next-pwa": "npm:^10.2.9"
-    "@fluentui/react": "npm:^8.120.9"
-    "@types/react": "npm:^18.3.8"
+    "@fluentui/react": "npm:^8.121.1"
+    "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.0"
     autoprefixer: "npm:^10.4.20"
     classnames: "npm:^2.5.1"
     date-fns: "npm:^4.1.0"
     eslint: "npm:^8.57.1"
-    eslint-config-next: "npm:^14.2.13"
+    eslint-config-next: "npm:^14.2.14"
     gray-matter: "npm:^4.0.3"
-    next: "npm:^14.2.13"
+    next: "npm:^14.2.14"
     postcss: "npm:^8.4.47"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -2177,13 +2177,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.8":
-  version: 18.3.8
-  resolution: "@types/react@npm:18.3.8"
+"@types/react@npm:^18.3.11":
+  version: 18.3.11
+  resolution: "@types/react@npm:18.3.11"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/367312c9fe276639ecb142265e090a4dd04bb39f8d718cbab546de3f1ddcfddeff415e1147d0fc40f734badaa7420b7b109d511bd4304b2c4c9c36164612fdf8
+  checksum: 10c0/ce80512246ca5bda69db85b9f4f1835189334acfb6b2c4f3eda8cabff1ff1a3ea9ce4f3b895bdbc18c94140aa45592331aa3fdeb557f525c1b048de7ce84fc0e
   languageName: node
   linkType: hard
 
@@ -3568,11 +3568,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^14.2.13":
-  version: 14.2.13
-  resolution: "eslint-config-next@npm:14.2.13"
+"eslint-config-next@npm:^14.2.14":
+  version: 14.2.14
+  resolution: "eslint-config-next@npm:14.2.14"
   dependencies:
-    "@next/eslint-plugin-next": "npm:14.2.13"
+    "@next/eslint-plugin-next": "npm:14.2.14"
     "@rushstack/eslint-patch": "npm:^1.3.3"
     "@typescript-eslint/eslint-plugin": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
@@ -3588,7 +3588,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/b6cf0f0f9c910eda69e442553dc08a024e9314ee0c60924660aa446ad68109161955b7a9646afd2ba9bd2f786888cb016197bd6a16ba5411267cf70f2934e5fe
+  checksum: 10c0/884e61e9575dd498fc0531b9cba686c480021f9d2770527bbe8949b820927739625ccff0e4d91abe4ce67cf7a233e59e0ba3ef969d9694441795aef4e9be0372
   languageName: node
   linkType: hard
 
@@ -5815,20 +5815,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^14.2.13":
-  version: 14.2.13
-  resolution: "next@npm:14.2.13"
+"next@npm:^14.2.14":
+  version: 14.2.14
+  resolution: "next@npm:14.2.14"
   dependencies:
-    "@next/env": "npm:14.2.13"
-    "@next/swc-darwin-arm64": "npm:14.2.13"
-    "@next/swc-darwin-x64": "npm:14.2.13"
-    "@next/swc-linux-arm64-gnu": "npm:14.2.13"
-    "@next/swc-linux-arm64-musl": "npm:14.2.13"
-    "@next/swc-linux-x64-gnu": "npm:14.2.13"
-    "@next/swc-linux-x64-musl": "npm:14.2.13"
-    "@next/swc-win32-arm64-msvc": "npm:14.2.13"
-    "@next/swc-win32-ia32-msvc": "npm:14.2.13"
-    "@next/swc-win32-x64-msvc": "npm:14.2.13"
+    "@next/env": "npm:14.2.14"
+    "@next/swc-darwin-arm64": "npm:14.2.14"
+    "@next/swc-darwin-x64": "npm:14.2.14"
+    "@next/swc-linux-arm64-gnu": "npm:14.2.14"
+    "@next/swc-linux-arm64-musl": "npm:14.2.14"
+    "@next/swc-linux-x64-gnu": "npm:14.2.14"
+    "@next/swc-linux-x64-musl": "npm:14.2.14"
+    "@next/swc-win32-arm64-msvc": "npm:14.2.14"
+    "@next/swc-win32-ia32-msvc": "npm:14.2.14"
+    "@next/swc-win32-x64-msvc": "npm:14.2.14"
     "@swc/helpers": "npm:0.5.5"
     busboy: "npm:1.6.0"
     caniuse-lite: "npm:^1.0.30001579"
@@ -5869,7 +5869,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/ef3aa074e9c7e0de95a9815cbbe9eee98bd190ed2ede982a2c0e00a8b438ac76193a3a6d2acabbadfd66f1f463ca97e84390a352ab0822f865c5524b356fdb31
+  checksum: 10c0/ed35c4a7e87de6da268ab19c195c498480ce758dad931b0789b81fc2a0e63020b379ce6f43daff922c123014ea5b3a33cc9eb09c785aa2d5bcd5eb0ef46b9f80
   languageName: node
   linkType: hard
 
