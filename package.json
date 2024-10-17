@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "@ducanh2912/next-pwa": "^10.2.9",
-        "@fluentui/react": "^8.121.1",
+        "@fluentui/react": "^8.121.6",
         "classnames": "^2.5.1",
         "date-fns": "^4.1.0",
         "gray-matter": "^4.0.3",
