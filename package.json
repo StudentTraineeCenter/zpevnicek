@@ -1,9 +1,9 @@
 {
     "name": "@stccz/zpevnicek",
-    "packageManager": "yarn@4.5.0",
+    "packageManager": "yarn@4.5.3",
     "private": true,
     "engines": {
-        "node": "^20.17.0"
+        "node": "^22.12.0"
     },
     "scripts": {
         "dev": "node json-operations.js -m && next",
@@ -13,27 +13,28 @@
     },
     "dependencies": {
         "@ducanh2912/next-pwa": "^10.2.9",
-        "@fluentui/react": "^8.121.1",
+        "@fluentui/react": "^8.122.1",
         "classnames": "^2.5.1",
         "date-fns": "^4.1.0",
         "gray-matter": "^4.0.3",
-        "next": "^14.2.14",
+        "next": "^15.1.2",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-search-box": "^3.0.0",
         "remark": "^15.0.1",
         "remark-html": "^16.0.1",
         "string.prototype.replaceall": "^1.0.10",
-        "sweetalert2": "^11.14.1",
+        "sweetalert2": "^11.15.2",
         "unidecode": "^1.1.0"
     },
     "devDependencies": {
-        "@types/react": "^18.3.11",
-        "@types/react-dom": "^18.3.0",
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5",
         "autoprefixer": "^10.4.20",
         "eslint": "^8.57.1",
-        "eslint-config-next": "^14.2.14",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13"
+        "eslint-config-next": "^15.1.2",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.7.2"
     }
 }
